@@ -1,0 +1,61 @@
+.body{
+    box-sizing: border-box;
+    display: flex;
+}
+.div{
+    width:300px;
+    padding:40px;
+    margin:30px auto;
+    background-color: white;
+    border: 2px solid rgb(173, 164, 164);
+    border-radius:14px;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.card{
+    font-size: 40px;
+}
+.p{
+    color:grey;
+    text-align: center;
+}
+.input{
+    display: flex;
+    gap:10px;
+    width:100%;
+    padding:12px;
+    text-align: center;
+    margin:20px 0 15px 0;
+    border: 1px solid grey;
+    border-radius: 7px;
+    box-sizing: border-box;
+}
+.input input:focus {
+    border-left: 2px solid #9C27B0;
+}
+.cardno{
+    border:none;
+    flex: 2;
+    width:75px;
+}
+.expiry,.cvc{
+    border:none;
+    width:30px;
+    flex: 1;
+    text-align: right;
+}
+
+.button{
+    width:100%;
+    padding:12px;
+    border: none;
+    border-radius: 7px;
+    background: #4834a0;
+    color:white;
+    margin-bottom: 25px;
+}
+.end{
+    font-size: 12px;
+    text-align: center;
+    color: rgb(180, 178, 178);
+}

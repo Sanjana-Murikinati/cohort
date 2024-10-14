@@ -1,0 +1,29 @@
+@media (min-width: 900px) {
+    .box {
+        width: 200px;
+        height: 200px;
+        margin: 50px auto;
+        background-color: red;
+        border-radius: 12px;
+    }
+}
+
+@media (max-width: 499px) {
+    .box {
+        width: 200px;
+        height: 200px;
+        margin: 50px auto;
+        background-color: green;
+        border-radius: 12px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 899px) {
+    .box {
+        width: 200px;
+        height: 200px;
+        margin: 50px auto;
+        background-color: blue;
+        border-radius: 12px;
+    }
+}
